@@ -3,38 +3,127 @@
 
 	<head>
 
-		<title>SHOP</title>
+		<title>Home</title>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
-		<link rel="favicon" href="demo_icon.gif" type="image/gif">
-
+		<link rel="shortcut icon" href="assets/plato.png" type="image/png" />
+		
 	</head>
 
-	<body>
+	<body> 
 		<header>
-			<h2 id="shop">BikeShop</h2>
+			<h2 id="shop">BikeSh&nbspp</h2>
 			<img id="logo" src="assets/logo.png">
+			<img id="plato" src="assets/plato.png">
 		</header>
 
 		<main>
-
-			<nav id="menu">		
-			    <a href="#">Inicio</a>
-			    <a href="#">Ciudad</a>
-			    <a href="#">Montaña</a>
-			    <a href="#">Accesorios</a>			  
+			<!-- 
+			<div id="menu">
+				<nav>		
+				    <a href="#">Inicio</a>
+				    <a href="#">Ciudad</a>
+				    <a href="#">Montaña</a>
+				    <a href="#">Accesorios</a>			  
+				</nav>
+			</div>
+			-->
+			<nav>
+				<div class="topnav">
+				  <a class="active" href="#">Home</a>
+				  <a href="paginas/ciudad.html">Ciudad</a>
+				  <a href="paginas/montaña.html">Montaña</a>
+				  <a href="paginas/accesorios.html">Equipamiento</a>
+				  <a href="paginas/envio.html">Envio</a>
+				</div>
 			</nav>
 
-			<section>
-				<article>
-					<h3>Nuevos modelos</h3>
-				</article>				
+			<section id="principal">
+				<div>
+					<a href="paginas/montaña.html"><img id="promo" src="assets/promocion.png"></a>
+					<div align="center">
+						<a href="paginas/accesorios.html"><img src="assets/new.jpg"></a>
+						<a href="paginas/accesorios.html"><img src="assets/new2.jpg"></a>
+					</div>
+				</div>
+				
+			</section>
+
+			<section id="novedades">
+
+				<div>
+					<h2>Nuevos modelos Scott</h2>					
+					<img id="spark" src="assets/SPARK.jpg" alt="Scott Spark">
+					<span>Scott Spark</span>
+					<img id="gambler" src="assets/gambler.jpg" alt="Scott Gambler">
+					<span>Scott Gambler</span>
+					<img id="yz" src="assets/voltageYZ.jpg" alt="Scott Voltage YZ" >
+					<span>Scott Voltage YZ</span>
+				</div>
+
+				<div>
+					<h2>Nuevos modelos Mondraker</h2>
+					<img id="summum" src="assets/summum.jpg" alt="Mondraker Summum" >
+					<span>Mondraker Summum</span>
+					<img id="special" src="assets/special.jpg" alt="Mondraker BTT Special" >
+					<span>Mondraker Special</span>
+					<img id="quarter" src="assets/quarter.jpg" alt="Mondraker Quarter">
+					<span>Mondraker Quarter I</span>
+				</div>				
+			</section>
+
+			<section id="informacion">
+
+				<div>
+					<h2>Modalidades:</h2>
+				</div>
+
+				<div>
+					<h3>DownHill</h3>
+					<img src="assets/downhill.jpg">
+					<p> 
+						Implica descender por la montaña en bicicleta en el menor tiempo posible. Si tuviéramos que definir con dos palabras el DH sería: agresividad y velocidad.
+						Los que lo practican son subidos por camionetas a alguna zona de alta montaña, directamente al inicio del marcaje de la pista. 
+						Si esta pista se encuentra en un Bikepark posiblemente el modo de subir al ciclista sea mediante góndolas. Muchos de estos parques son centros de ski durante el invierno.
+					</p>
+				</div>
+
+				<div>
+					<h3>Enduro</h3>
+					<img src="assets/enduro.jpg">
+					<p>
+						En una carrera de enduro, gana el que mas rápido recorre la pista, pero a diferencia del downhill, en donde la pista es un descenso de 5 minutos aproximadamente, en el enduro encontramos subidas y bajadas.
+						<br/>
+						En una buena carrera de enduro, existen de 4 a 5 pruebas especiales, dentro de un recorrido de 25km aproximadamente. La parte de la resistencia viene cuando a estos 25km de subidas y bajadas, le sumas un tiempo límite para terminar toda la carrera.
+						<br/>
+						Estas carreras son de estrategia. Hay que saber cuándo y dónde darlo todo, y también en que partes de la pista hay que bajarle un poco para ahorrar energías.
+					</p>
+				</div>
+
+				<div>
+					<h3>Dirt Jump</h3>
+					<img src="assets/dirt.jpg">
+					<p>
+						El Dirt Jump MTB es una de las modalidades del BMX. Consiste en efectuar saltos con bicicletas de Montain Bike especialmente preparadas. Pero no solo se trata de impulsarse y saltar, sino de hacer figuras acrobáticas en el aire.Se impulsan mediante mesetas o dobles de tierra, hierro o madera. Pueden llegar a alcanzar entre 4 y 6 metros de altura, en aproximadamente 2 o 3 segundos lo que dura cada salto y cada uno depende de la dificultad de la figura que se realice.
+						<br/>
+						Hay pistas especialmente diseñadas para la práctica del MTB, son parecidas a las pistas de BMX (Bycicle Motocross), pero en estas, los pilotos suelen usar saltos más grandes
+					</p>
+				</div>
+				
 			</section>
 			
 		</main>
 
-		<footer>
-			
+		<footer>			
+			<a href="https://www.instagram.com/bikerevista/" target="_blank"><img id="ig" src="assets/instagram.png"><a/>
+			<a href="https://twitter.com/downhillrangers" target="_blank"><img id="tw" src="assets/twitter.png"><a/>
+			<a href="https://www.youtube.com/watch?v=SQBS7gBdo50&ab_channel=SpainDH" target="_blank"><img id="yt" src="assets/youtube.png"><a/>
+
+			<span>Creado por Martín Ruiz</span>	
+			<div id="espacio">
+				
+			</div>
+
 		</footer>
 
 	</body>

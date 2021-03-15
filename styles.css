@@ -2,20 +2,233 @@
 header h2{
 	position: absolute;
 	font-family: monospace;
-	font-size: 3em;
-	margin-left: 20px;
+	font-size: 4em;
+	margin-left: 100px;
 }
 
 #logo{
-	width: 60px;
-	height: 60px;
-	margin-left: 180px;
+	width: 80px;
+	height: 80px;
+	margin-left: 290px;
 }	
 
+#plato{
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	margin-left: -101px;
+	margin-top: 60px;
+}
+
+
 /* CONTENEDOR */
+
+footer,header{
+	width: 100%;
+}
+
 main{
 	margin: 30px;
-	background-color: red;
+	background-color: #DEDEDE;
+	font-family: Helvetica;
+	padding-bottom: 50px;
 	
 }
 
+
+	/* Menu */
+
+	/*
+#menu{
+	word-spacing: 80px;
+	font-family: Helvetica;
+	font-size: 20px;
+	background-color:#75BCD9; 
+	padding: 20px;
+	overflow: hidden;
+  	text-decoration: none;
+  	color: #f2f2f2;
+  	text-align: center;
+}
+
+#menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+*/
+		/* MENU */
+		.topnav {
+		  background-color: #333;
+		  overflow: hidden;
+		}
+
+		.topnav a {
+		  float: left;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.topnav a:hover {
+		  background-color: #75BCD9;
+		  color: black;
+		}
+
+		.topnav a.active {
+		  background-color: #75BCD9;
+		  color: white;
+		}
+
+
+
+	/* secciones HOME */
+
+#principal{
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#promo{
+	width: 100%;
+	
+}
+
+
+#seccion1{
+	margin-top:50px;
+	padding: 20px;
+}
+
+div h2{
+	margin-top: 70px;
+	margin-left: 20px;
+	font-family: verdana;
+}
+
+
+#spark, #gambler, #yz, #summum, #special, #quarter, #fuzz,#ns{
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+}
+
+#gambler,#yz, #special, #quarter{
+	margin-left: 180px;
+}
+
+span{
+	margin-left: 10px;
+	margin-top: 10px;
+	position: absolute;
+	font-family: Helvetica;
+}
+
+
+#informacion{
+	margin-top: 100px;
+	font-family: Helvetica;
+}
+
+h3{
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: verdana;
+	position: absolute;
+	background-color:#DEDEDE;
+	padding: 5px;
+}
+
+#informacion img{
+	margin-top: 30px;
+	width: 60%;
+	height: 270px;
+}
+
+#informacion p{
+	margin-left: 20px;
+}
+
+
+/* secciones CIUDAD */
+
+#city{
+	width: 100%;
+}
+
+
+#metrix, #sirrus, #badboy, #mx, #urban, #orbea{
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+}
+
+/* secciones MONTAÑA*/
+
+#furious, #mega, #demo{
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+}
+
+/* secciones EQUPAMIENTO */
+#pdl, #pantalon, #potencia,#cadena,#fox,#guantes,#amortiguador,#casco,#rueda{
+	width: 250px;
+	height: 200px;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+
+#equipamiento span
+	margin-top: 60px;
+}
+
+
+/* ENVIO */
+
+#instagram{
+		height: 50px;
+	width: 50px;
+	margin-left: 50px;
+}
+
+form{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#envio h2{
+	margin-left: 20px;
+}
+
+/* PIE */
+
+#ig{
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+}
+#tw, #yt{
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+footer span{
+	margin-left: 30%
+}
+
+
+#espacio{
+	height: 30px;
+}
+
+/*font awesome*/
+/* radio */
