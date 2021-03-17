@@ -21,11 +21,12 @@ header h2{
 }
 
 
-/* CONTENEDOR */
-
+/**/
 footer,header{
 	width: 100%;
 }
+
+/* CONTENEDOR */
 
 main{
 	margin: 30px;
